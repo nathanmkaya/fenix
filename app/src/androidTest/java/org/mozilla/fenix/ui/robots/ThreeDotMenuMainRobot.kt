@@ -136,6 +136,7 @@ class ThreeDotMenuMainRobot {
             // at the bottom. On larger devices, the second swipe is a no-op.
             threeDotMenuRecyclerView().perform(swipeUp())
             threeDotMenuRecyclerView().perform(swipeUp())
+            threeDotMenuRecyclerView().perform(swipeUp())
             settingsButton().click()
 
             SettingsRobot().interact()
